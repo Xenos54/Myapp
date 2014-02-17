@@ -11,9 +11,12 @@ gem 'bootstrap-sass', '>= 3.0.0.0'
 gem 'devise'
 gem 'figaro'
 gem 'pg'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
   gem 'quiet_assets'
   gem 'rails_layout'
 end
+
+gem 'rails_12factor', group: :production
